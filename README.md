@@ -1,14 +1,16 @@
-# Harbor Testnet with Ethereum and GraphQL
+# Harbor Testnet with Ethereum
 
-This is to demonstrate configuring, building and running a sample Testnet with an Ethereum chain and a GraphQL Node. Clone this repo and follow along.
+This is to demonstrate configuring, building and running a sample Testnet with an Ethereum chain. Clone this repo and follow along.
 
 ## Copy credentials
 
 ### User Key
+
 On your home page, you should be able to copy your User Key which is found on the top right of the page.
 
 ### Project Key
-In your projects page, each project has a Project Key that you can copy.
+
+On your projects page, each project has a Project Key that you can copy.
 
 ## Configure your credentials
 
@@ -18,7 +20,7 @@ Run the command:
 harbor configure keys
 ```
 
-This will ask you to add in your credentials, which includes your User Key and Project Key. Find them in the app and paste them here.
+This will ask you to add in your credentials, which include your User Key and Project Key. Find them in the app and paste them here.
 
 ## Start Testnet
 
@@ -27,6 +29,7 @@ To run the Testnet, execute the following command in the same directory as this 
 ```bash
 harbor apply <testnet-name>
 ```
+
 Where `<testnet-name>` is a Testnet name of your choosing.
 
 You should see this:
