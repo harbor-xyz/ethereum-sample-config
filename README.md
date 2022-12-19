@@ -40,12 +40,19 @@ Validating testnet name...
 Configuring chain...
 ```
 
-At the end of the logs, you should see your chain and off-chain actors with endpoints:
+At the end of the logs, you should see your chain with endpoints:
 
 ```bash
-These are your running processes and their ports
+Updating testnet status...
+
 ethereum
-3.91.12.13:4000
+RUNNING
+http://34.204.90.58:4000
+
+Total chains count: 1
+
+Total off-chain actors count: 0
+
 ```
 
 You can now interact with them using the endpoints.
