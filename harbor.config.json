@@ -13,7 +13,8 @@
         "afterDeploy": {
           "location": "./afterDeploy"
         }
-      }
+      },
+      "tag": "v1"
     }
   ]
 }
