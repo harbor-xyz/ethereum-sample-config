@@ -1,7 +1,4 @@
 {
-  "config": {
-    "name": "ethereum-graphql-pgres"
-  },
   "chains": [
     {
       "chain": "ethereum",
